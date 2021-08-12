@@ -1,6 +1,6 @@
 import '../App.css';
 import Picture from '../Components/Picture';
-//import {  HashRouter, Link, Switch, Route } from 'react-router-dom';
+import Skills from '../Components/Skills';
 
 export default function Homepage() {
   return (
@@ -9,6 +9,7 @@ export default function Homepage() {
       <p>
         Brasileiro, mineiro e belo-horizontino. Gosto de usar a criatividade para solucionar problemas. Desenvolvo sites e escrevo livros.
       </p>
+      <Skills />
     </div>
   );
 }

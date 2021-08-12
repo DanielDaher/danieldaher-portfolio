@@ -1,15 +1,8 @@
 import React from 'react';
+import { DiJsBadge } from "react-icons/di";
 
-export default class Skills extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      skills: '',
-    }
-    this.showSkills = this.showSkills.bind(this);
-  }
-
-  showSkills() {
+export default function Skills() {
+  function showSkills() {
     const mySkills = <div className="skill-list">
       <p>HTML</p>
       <p>CSS</p>
@@ -21,14 +14,9 @@ export default class Skills extends React.Component {
       skills: mySkills,
     }))
   }
-
-  render() {
-    const { skills } = this.state;
     return (
       <div className='skills'>
-        <button onClick={this.showSkills}>Clique aqui para ver minhas Skills</button>
-        <div>{ skills }</div>
+        <DiJsBadge />
       </div>
     );
-  }
 }
