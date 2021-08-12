@@ -36,7 +36,7 @@ body {
 
 .perfilPicture {
   border-radius: 100%;
-  width: 300px;
+  width: 350px;
   filter: grayscale(100%);
   /* transform: scale(1.1); */
 }
