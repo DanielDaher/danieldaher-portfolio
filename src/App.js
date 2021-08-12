@@ -4,6 +4,7 @@ import {  BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -15,8 +16,13 @@ function App() {
           <Route exact path="/" component={Homepage} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
+          <Route path='/linkedin' component={() => { 
+     window.location.href = 'https://www.linkedin.com/in/daniel-daher-dev/'; 
+     return null;
+}}/>
           </Switch>
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );
