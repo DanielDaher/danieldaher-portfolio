@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  color: #263436;
+  /* color: #263436; */
+  color: rgb(207, 207, 207);
   min-height: 90vh;
   min-width: 105vh;
 }
@@ -8,7 +9,7 @@
 body {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to right, #00aefd, #00a0ff, #308eff, #6079ff, #895ef8);
+  background-image: linear-gradient(to right, #6565ff, #514bd6, #3d33af, #271c8a, #0d0466);
   min-height: 100vh;
 }
 
