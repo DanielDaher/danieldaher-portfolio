@@ -20,8 +20,10 @@ body {
 }
 
 .info p {
-  width: 57vh;
+  width: 37vw;
   margin-left: 10px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .skills {
