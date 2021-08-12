@@ -10,7 +10,8 @@ body {
   display: flex;
   justify-content: center;
   /* background-image: linear-gradient(to right, #6565ff, #514bd6, #3d33af, #271c8a, #0d0466); */
-  background-image: linear-gradient(to right, #443d85, #38307e, #2c2276, #1e146e, #0d0466);
+  /* background-image: linear-gradient(to right, #443d85, #38307e, #2c2276, #1e146e, #0d0466); */
+  background-image: radial-gradient(circle, #443d85, #38307e, #2c2276, #1e146e, #0d0466);
   min-height: 100vh;
 }
 
