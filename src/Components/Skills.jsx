@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiJsBadge } from "react-icons/di";
+import { DiJsBadge, DiReact } from "react-icons/di";
 
 export default function Skills() {
   function showSkills() {
@@ -16,7 +16,16 @@ export default function Skills() {
   }
     return (
       <div className='skills'>
-        <DiJsBadge />
+        <div className="skills-list1">
+          <div className="skill-list-item">
+            <DiJsBadge className="js-icon" />
+            <span>JavaScript</span>
+          </div>
+          <div className="skill-list-item">
+            <DiReact className="react-icon" /> 
+            <span>React</span>
+          </div>
+        </div>
       </div>
     );
 }

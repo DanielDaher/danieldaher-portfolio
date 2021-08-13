@@ -82,7 +82,22 @@ footer img {
   /* transform: scale(1.1); */
 }
 
-.github-icon {
+.github-icon, .js-icon, .react-icon {
   width: 50px;
   height: 50px;
 }
+
+.skills-list1 {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+}
+
