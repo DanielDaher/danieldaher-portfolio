@@ -2,7 +2,7 @@ import React from 'react';
 import { DiJsBadge, DiReact } from "react-icons/di";
 
 export default function Skills() {
-  function showSkills() {
+ /*  function showSkills() {
     const mySkills = <div className="skill-list">
       <p>HTML</p>
       <p>CSS</p>
@@ -13,7 +13,7 @@ export default function Skills() {
     this.setState(() => ({
       skills: mySkills,
     }))
-  }
+  } */
     return (
       <div className='skills'>
         <div className="skills-list1">
