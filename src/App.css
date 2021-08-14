@@ -78,7 +78,11 @@ footer img {
   border-radius: 100%;
   width: 350px;
   filter: grayscale(100%);
-  /* transform: scale(1.1); */
+}
+
+.perfilPicture:hover {
+  filter: grayscale(0%);
+  transform: 0.5s;
 }
 
 .github-icon, .icons {
@@ -130,6 +134,7 @@ footer img {
 .card img {
   width: 500px;
   height: 312px;
+  filter: opacity(60%);
 }
 
 .card a {
@@ -137,7 +142,7 @@ footer img {
 }
 
 .card img:hover {
- filter: contrast(40%);
+  filter: opacity(100%);
  transition: 0.5s;
 }
 
