@@ -68,6 +68,10 @@ footer a {
   align-items: center;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 footer img {
   width: 50px;
   background-color: rgb(207, 207, 207);
@@ -112,6 +116,10 @@ footer img {
   height: 100px;
 }
 
+.skill-list-item:hover {
+  color: goldenrod;
+}
+
 .Projects-cards {
   display: flex;
   flex-wrap: wrap;
@@ -144,5 +152,34 @@ footer img {
 .card img:hover {
   filter: opacity(100%);
  transition: 0.5s;
+}
+
+.contatos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.contatos li {
+  list-style: none;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+}
+
+.contatos a {
+  text-decoration: none;
+  color: rgb(207, 207, 207);
+  display: flex;
+  align-items: center;
+}
+
+.contatos a:hover, .contatos li:hover {
+  color: goldenrod;
+  text-decoration: underline;
 }
 
