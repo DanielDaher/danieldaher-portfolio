@@ -6,7 +6,7 @@ export default function Homepage() {
   return (
     <div className="info">
       <Picture />
-      <p>
+      <p className="info-paragraph" >
         Brasileiro, mineiro e belo-horizontino. Gosto de usar a criatividade para solucionar problemas. Desenvolvo sites e escrevo livros.
       </p>
       <Skills />

@@ -1,12 +1,16 @@
 import React from 'react';
-import ProfilePIcture from '../fotodeperfil.png';
+import ProfilePicture from '../fotodeperfil.png';
 
 
 export default class Picture extends React.Component {
   render() {
     return (
       <div>
-        <img className='perfilPicture' alt="Foto de Daniel Daher encarando o horizonte" src={ProfilePIcture} />
+        <img
+          className='perfilPicture'
+          alt="Foto de Daniel Daher encarando o horizonte"
+          src={ProfilePicture}
+        />
       </div>
     );
   }

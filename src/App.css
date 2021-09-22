@@ -46,7 +46,7 @@ nav h1 {
   align-items: center;
 }
 
-.info p {
+.info-paragraph {
   width: 37vw;
   font-size: 18px;
   font-weight: 700;
@@ -188,3 +188,36 @@ footer img {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 768px) {
+  .Projects-cards {
+    flex-wrap: wrap;
+  }
+
+  .card img {
+    width: 450px;
+  }
+
+  .info-paragraph {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .card img {
+    width: 250px;
+    height: 160px;
+  }
+
+  .card {
+    height: 300px;
+  }
+
+  .perfilPicture {
+    width: 270px;
+  }
+
+  .info-paragraph {
+    width: 80vw;
+    font-size: 14px;
+  }
+}
