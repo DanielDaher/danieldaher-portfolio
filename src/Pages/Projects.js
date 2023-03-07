@@ -15,7 +15,7 @@ export default function Projects() {
     {
       name: 'To Do List - FullStack',
       thumbnail: toDoListThumb,
-      link:'http://ebyrt-to-do-list-frontend.herokuapp.com/'
+      link:'https://ebyrt-to-do-list-danieldaher.vercel.app/'
     },
     {
       name: 'Rick and Morty Memory Game',
