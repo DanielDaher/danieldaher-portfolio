@@ -7,7 +7,8 @@ export default function Homepage() {
     <div className="info">
       <Picture />
       <p className="info-paragraph" >
-        Brasileiro, mineiro e belo-horizontino. Gosto de usar a criatividade para solucionar problemas. Desenvolvo sites e escrevo livros.
+        {/* Brasileiro, mineiro e belo-horizontino. Gosto de usar a criatividade para solucionar problemas. Desenvolvo sites e escrevo livros. */}
+        Desenvolvedor Web Fullstack, formado pela Trybe, com um ano de experiência no mercado. Sou criativo e trabalho bem em equipe. Natural de Belo Horizonte.
       </p>
       <Skills />
     </div>
